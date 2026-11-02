@@ -18,4 +18,7 @@ message = client.messages.create(
     ]
 )
 
-print(message.content[0].text)
+for block in message.content:
+    if block.type == "text":
+        print(block.text)
+        break
