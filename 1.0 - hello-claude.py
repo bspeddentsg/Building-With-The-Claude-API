@@ -6,6 +6,7 @@ from anthropic import Anthropic
 client = Anthropic()
 model = "claude-haiku-4-5"
 
+
 message = client.messages.create(
     model=model,
     max_tokens=1000,
