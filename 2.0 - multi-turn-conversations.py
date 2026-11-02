@@ -20,7 +20,7 @@ def chat(messages):
         max_tokens=1000,
         messages=messages,
     )
-    return message.content[0].text
+    return "".join(block.text for block in message.content if block.type == "text")
 
 # Start with an empty message list
 messages = []
