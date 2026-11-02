@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Virtual environment (match your folder name)
+.venv/
+venv/
+
+# Python / editor clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
