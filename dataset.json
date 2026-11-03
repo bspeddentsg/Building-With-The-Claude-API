@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI in the format 's3://bucket-name/key/path' and returns just the bucket name."
+    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI in the format 's3://bucket-name/key/path' and returns just the bucket name.",
+    "format": "python"
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to all objects in an S3 bucket named 'my-data-bucket'."
+    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to all objects in an S3 bucket named 'my-data-bucket'.",
+    "format": "json"
   },
   {
-    "task": "Write a regex pattern that matches valid AWS EC2 instance IDs, which always start with 'i-' followed by 17 hexadecimal characters (0-9, a-f)."
+    "task": "Write a regex pattern that matches valid AWS EC2 instance IDs, which always start with 'i-' followed by 17 hexadecimal characters (0-9, a-f).",
+
   }
 ]
