@@ -1,14 +1,44 @@
 [
   {
-    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI in the format 's3://bucket-name/key/path' and returns just the bucket name.",
-    "format": "python"
+    "prompt_inputs": {
+      "height": 188,
+      "weight": 82,
+      "goal": "muscle gain",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan must include at least 4 meals with high protein content (minimum 25g protein per meal)",
+      "Total daily calories should be in surplus (approximately 2800-3200 kcal for an 82kg athlete)",
+      "Include specific food items and portion sizes, not just meal categories",
+      "Distribute meals throughout the day to support muscle recovery and growth"
+    ]
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to all objects in an S3 bucket named 'my-data-bucket'.",
-    "format": "json"
+    "prompt_inputs": {
+      "height": 165,
+      "weight": 58,
+      "goal": "endurance performance",
+      "restrictions": "vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan must exclude all meat and fish while maintaining adequate protein from plant-based sources",
+      "Include complex carbohydrates timed around potential training sessions for sustained energy",
+      "Provide specific vegetarian protein sources (legumes, tofu, nuts, dairy if applicable)",
+      "Ensure total calories support endurance training (approximately 2200-2600 kcal for a 58kg athlete)"
+    ]
   },
   {
-    "task": "Write a regex pattern that matches valid AWS EC2 instance IDs, which always start with 'i-' followed by 17 hexadecimal characters (0-9, a-f).",
-
+    "prompt_inputs": {
+      "height": 175,
+      "weight": 75,
+      "goal": "weight loss",
+      "restrictions": "gluten-free, dairy-free"
+    },
+    "solution_criteria": [
+      "Meal plan must be calorie-controlled (approximately 500-750 kcal deficit, around 1800-2000 kcal total)",
+      "All meals must be both gluten-free and dairy-free with clearly identified safe alternatives",
+      "Include adequate protein (minimum 120g daily) to preserve muscle mass during weight loss",
+      "Specify preparation methods and quantities to demonstrate how caloric deficit is achieved"
+    ]
   }
 ]

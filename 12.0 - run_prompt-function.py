@@ -143,6 +143,22 @@ def validate_regex(text):
     except re.error:
         return 0
 
+def grade_syntax(output, test_case):
+    task = test_case.get("task", "").lower()
+
+    if "regex" in task or "regular expression" in task:
+        return validate_regex(output)
+    if "json" in task:
+        return validate_json(output)
+    if "python" in task or "function" in task:
+        return validate_python(output)
+
+    return max(
+        validate_json(output),
+        validate_python(output),
+        validate_regex(output),
+    )
+
 
 with open("dataset.json", "r") as f:
     dataset = json.load(f)

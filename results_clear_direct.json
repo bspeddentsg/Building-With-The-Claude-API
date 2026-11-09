@@ -1,0 +1,84 @@
+[
+  {
+    "test_case": {
+      "prompt_inputs": {
+        "height": 188,
+        "weight": 82,
+        "goal": "muscle gain",
+        "restrictions": "none"
+      },
+      "solution_criteria": [
+        "Meal plan must include at least 4 meals with high protein content (minimum 25g protein per meal)",
+        "Total daily calories should be in surplus (approximately 2800-3200 kcal for an 82kg athlete)",
+        "Include specific food items and portion sizes, not just meal categories",
+        "Distribute meals throughout the day to support muscle recovery and growth"
+      ]
+    },
+    "output": "# One-Day Muscle-Gain Meal Plan for 188cm, 82kg Athlete\n\n## Daily Targets\n- **Calories:** ~3,200-3,400 kcal\n- **Protein:** 164-180g (2g per kg bodyweight)\n- **Carbs:** 400-450g\n- **Fats:** 90-100g\n\n---\n\n## BREAKFAST (7:00 AM)\n**Protein Pancakes with Berries**\n- 3 whole eggs + 2 egg whites\n- 50g oats\n- 1 cup mixed berries\n- 1 tbsp almond butter\n- Honey drizzle\n\n*Calories: 620 | Protein: 28g | Carbs: 72g | Fats: 18g*\n\n---\n\n## MID-MORNING SNACK (10:00 AM)\n**Greek Yogurt Power Bowl**\n- 200g Greek yogurt (0%)\n- 45g granola\n- 30g mixed nuts\n- 1 banana\n\n*Calories: 420 | Protein: 22g | Carbs: 48g | Fats: 12g*\n\n---\n\n## LUNCH (1:00 PM)\n**Grilled Chicken & Rice**\n- 220g grilled chicken breast\n- 1.5 cups cooked brown rice\n- Mixed vegetables (broccoli, carrots, peppers)\n- 1 tbsp olive oil for cooking\n\n*Calories: 780 | Protein: 52g | Carbs: 85g | Fats: 14g*\n\n---\n\n## PRE-WORKOUT (3:30 PM)\n**Quick Carb + Protein**\n- Rice cakes (2)\n- 2 tbsp peanut butter\n- 1 medium apple\n\n*Calories: 380 | Protein: 12g | Carbs: 42g | Fats: 16g*\n\n---\n\n## POST-WORKOUT (6:00 PM)\n**Lean Beef & Sweet Potato**\n- 180g lean ground beef (90/10)\n- 1 medium sweet potato\n- Green salad with balsamic vinegar\n\n*Calories: 550 | Protein: 42g | Carbs: 58g | Fats: 12g*\n\n---\n\n## DINNER (8:00 PM)\n**Salmon with Quinoa**\n- 180g salmon fillet\n- \u00be cup cooked quinoa\n- Roasted asparagus (1 bunch)\n- Lemon & garlic seasoning\n\n*Calories: 620 | Protein: 38g | Carbs: 55g | Fats: 20g*\n\n---\n\n## BEFORE BED (10:00 PM)\n**Casein Protein Shake**\n- 250ml whole milk\n- 30g casein protein powder\n- \u00bd banana\n\n*Calories: 280 | Protein: 28g | Carbs: 18g | Fats: 8g*\n\n---\n\n## DAILY TOTALS\n- **Calories:** 3,650\n- **Protein:** 222g\n- **Carbs:** 378g\n- **Fats:** 100g\n\n**Notes:**\n- Adjust portions if actual calories are higher/lower than target\n- Time carbs around training for better performance\n- Stay hydrated (3-4L water daily)\n- Include rest days in your training plan",
+    "score": 9,
+    "reasoning": "The output successfully meets all solution criteria and extra criteria. It provides a comprehensive, well-structured meal plan with 8 meals (exceeding the 4-meal minimum), all with high protein content (ranging from 12-52g per meal, with most exceeding 25g). The plan includes specific foods, exact portions, and precise timing throughout the day. Daily totals and macronutrient breakdowns are clearly presented. The caloric surplus is appropriate for muscle gain, though slightly higher than the stated target range. The main weakness is the discrepancy between stated targets and actual delivery, though the delivered values are still reasonable for the athlete's profile. The plan demonstrates solid nutritional knowledge and practical application for muscle-building goals.",
+    "weaknesses": [
+      "Caloric total (3,650 kcal) exceeds stated target range (3,200-3,400 kcal) by 250-450 calories",
+      "Carb total (378g) slightly exceeds stated target (400-450g is listed but 378g is delivered)",
+      "No flexibility or substitution options provided for dietary preferences",
+      "Lacks information about meal prep or cooking methods beyond basic descriptions",
+      "No guidance on supplementation (creatine, multivitamin, etc.) despite being relevant for muscle gain",
+      "Doesn't address potential digestive timing issues with casein before bed",
+      "No caloric adjustment guidance for different activity levels or metabolism types"
+    ]
+  },
+  {
+    "test_case": {
+      "prompt_inputs": {
+        "height": 165,
+        "weight": 58,
+        "goal": "endurance performance",
+        "restrictions": "vegetarian"
+      },
+      "solution_criteria": [
+        "Meal plan must exclude all meat and fish while maintaining adequate protein from plant-based sources",
+        "Include complex carbohydrates timed around potential training sessions for sustained energy",
+        "Provide specific vegetarian protein sources (legumes, tofu, nuts, dairy if applicable)",
+        "Ensure total calories support endurance training (approximately 2200-2600 kcal for a 58kg athlete)"
+      ]
+    },
+    "output": "# One-Day Meal Plan for Endurance Athlete\n**Profile:** 165 cm, 58 kg, Vegetarian\n\n---\n\n## Nutritional Targets\n- **Calories:** ~2,400-2,600 kcal (endurance-focused)\n- **Protein:** ~87-116g (1.5-2g per kg)\n- **Carbs:** ~360-390g (6-7g per kg) for glycogen loading\n- **Fat:** ~65-80g\n\n---\n\n## BREAKFAST (7:00 AM)\n**Carb-Loading Oatmeal Bowl**\n- 1 cup cooked oatmeal\n- 1 banana, sliced\n- 2 tbsp almond butter\n- 1 tbsp honey\n- \u00bd cup berries\n- Cinnamon\n\n**Nutrition:** ~520 cal | 16g protein | 75g carbs | 15g fat\n\n---\n\n## MID-MORNING SNACK (9:30 AM)\n**Pre-Workout Fuel**\n- 1 Greek yogurt (200g, plain)\n- \u00bc cup granola\n- 1 tbsp chia seeds\n\n**Nutrition:** ~220 cal | 15g protein | 28g carbs | 6g fat\n\n---\n\n## LUNCH (1:00 PM)\n**Mediterranean Chickpea Salad**\n- 1.5 cups mixed greens\n- \u00be cup cooked chickpeas\n- \u00bd cup quinoa (cooked)\n- Cherry tomatoes, cucumber, bell pepper\n- 2 tbsp tahini dressing\n- Whole grain pita bread (1)\n\n**Nutrition:** ~480 cal | 18g protein | 62g carbs | 18g fat\n\n---\n\n## PRE-WORKOUT SNACK (3:00 PM)\n**Quick Energy Boost**\n- 1 rice cake\n- 2 tbsp peanut butter\n- 1 small apple\n\n**Nutrition:** ~280 cal | 10g protein | 32g carbs | 14g fat\n\n---\n\n## DINNER (7:00 PM)\n**Lentil & Sweet Potato Buddha Bowl**\n- 1 cup cooked red lentils\n- 1 medium roasted sweet potato\n- 1 cup roasted broccoli & carrots\n- 2 tbsp olive oil drizzle\n- Side of brown rice (\u00bd cup cooked)\n- Fresh lemon juice\n\n**Nutrition:** ~520 cal | 22g protein | 85g carbs | 12g fat\n\n---\n\n## EVENING SNACK (9:00 PM)\n**Recovery Protein**\n- Protein smoothie:\n  - 1 cup unsweetened soy milk\n  - 1 scoop plant-based protein powder\n  - \u00bd frozen banana\n  - 1 tbsp almond butter\n\n**Nutrition:** ~280 cal | 22g protein | 28g carbs | 10g fat\n\n---\n\n## DAILY TOTALS\n| Macro | Target | Actual |\n|-------|--------|--------|\n| **Calories** | 2,400-2,600 | ~2,480 |\n| **Protein** | 87-116g | ~103g |\n| **Carbs** | 360-390g | ~310g |\n| **Fat** | 65-80g | ~75g |\n\n---\n\n## Notes for Endurance Training\n\u2705 **Hydration:** Drink 3-4L water daily; add electrolytes during/after workouts  \n\u2705 **Timing:** Eat lunch 3-4 hours before intense workouts  \n\u2705 **Post-Workout:** Have dinner within 2 hours of training  \n\u2705 **Recovery:** Evening protein shake aids muscle repair  \n\nWould you like adjustments based on workout timing or intensity?",
+    "score": 8,
+    "reasoning": "The output successfully meets all core solution criteria: it maintains strict vegetarianism with excellent protein diversity, includes well-timed complex carbohydrates, provides specific vegetarian protein sources, and delivers appropriate caloric intake. The presentation is professional with exact portions, timing, and complete macronutrient tracking. However, there is a notable shortfall in carbohydrate content (310g vs. 360-390g target), which is significant for an endurance-focused plan where carbs are critical for glycogen loading. The 50-80g carb deficit could impact endurance performance. The plan also lacks some practical details about micronutrient management for vegetarian athletes and doesn't account for individual workout timing variations. Despite these weaknesses, the plan is well-constructed, functional, and would support endurance training effectively for most users.",
+    "weaknesses": [
+      "Carbohydrate total of 310g falls slightly short of the 360-390g target (6-7g per kg), representing an 8-14% deficit from the upper range",
+      "No specific guidance on workout timing or intensity level, making it unclear if this plan is optimized for the user's actual training schedule",
+      "Missing pre-workout hydration strategy details despite mentioning 3-4L daily water intake",
+      "No mention of micronutrient considerations (iron, B12, calcium) which are important for vegetarian endurance athletes",
+      "The plan assumes Greek yogurt is acceptable; some strict vegetarians may have concerns about dairy production ethics",
+      "Limited flexibility or alternative options provided for meal substitutions"
+    ]
+  },
+  {
+    "test_case": {
+      "prompt_inputs": {
+        "height": 175,
+        "weight": 75,
+        "goal": "weight loss",
+        "restrictions": "gluten-free, dairy-free"
+      },
+      "solution_criteria": [
+        "Meal plan must be calorie-controlled (approximately 500-750 kcal deficit, around 1800-2000 kcal total)",
+        "All meals must be both gluten-free and dairy-free with clearly identified safe alternatives",
+        "Include adequate protein (minimum 120g daily) to preserve muscle mass during weight loss",
+        "Specify preparation methods and quantities to demonstrate how caloric deficit is achieved"
+      ]
+    },
+    "output": "# One-Day Gluten-Free, Dairy-Free Meal Plan for Weight Loss\n\n**Athlete Profile:** 175 cm, 75 kg | Daily target: ~2,200-2,400 calories, high protein\n\n---\n\n## **BREAKFAST** (7:00 AM) | ~550 cal\n**Quinoa Breakfast Bowl**\n- 1 cup cooked quinoa\n- 2 scrambled eggs + 1 egg white\n- 1 cup mixed berries\n- 1 tbsp almond butter\n- Drizzle of pure maple syrup (1 tsp)\n\n*Protein: 18g | Carbs: 65g | Fat: 16g*\n\n---\n\n## **SNACK #1** (10:00 AM) | ~180 cal\n**Pre-Workout Fuel**\n- 1 medium banana\n- 1.5 oz almonds\n- 1 tbsp honey\n\n*Protein: 6g | Carbs: 32g | Fat: 10g*\n\n---\n\n## **LUNCH** (1:00 PM) | ~600 cal\n**Grilled Salmon & Roasted Vegetables**\n- 150g grilled salmon fillet\n- 2 cups roasted sweet potato & broccoli (olive oil drizzle)\n- Side salad with olive oil & balsamic vinegar\n- 1 small gluten-free roll (optional)\n\n*Protein: 38g | Carbs: 52g | Fat: 18g*\n\n---\n\n## **SNACK #2** (4:00 PM) | ~200 cal\n**Post-Workout Recovery**\n- Smoothie: 1 cup coconut milk + 1 scoop pea protein powder + 1/2 cup blueberries + 1 tbsp coconut oil\n\n*Protein: 20g | Carbs: 18g | Fat: 9g*\n\n---\n\n## **DINNER** (7:00 PM) | ~520 cal\n**Lean Turkey Stir-Fry**\n- 180g ground turkey (93/7 lean)\n- 3 cups mixed stir-fry vegetables (peppers, snap peas, carrots)\n- 3/4 cup brown rice\n- 1 tbsp sesame oil + gluten-free tamari sauce\n\n*Protein: 40g | Carbs: 48g | Fat: 12g*\n\n---\n\n## **Daily Totals**\n- **Calories:** ~2,050 (adjust portions if needed)\n- **Protein:** 122g (50% of calories)\n- **Carbs:** 215g\n- **Fat:** 65g\n- **Fiber:** ~25g\n\n---\n\n## **Hydration & Notes**\n- Drink 2.5-3L water daily (minimum)\n- Time carbs around workouts\n- Include electrolytes if training >90 min\n- Adjust portions based on hunger and training intensity",
+    "score": 6,
+    "reasoning": "The output demonstrates strong technical execution in meal planning with excellent attention to dietary restrictions, protein targets, and macronutrient tracking. However, it fundamentally fails the primary criterion: the caloric target is misaligned with weight loss requirements. At ~2,050 calories, this plan is 50-250 calories above the specified 1,800-2,000 kcal range needed for a proper deficit. The header's 2,200-2,400 calorie target directly contradicts the solution criteria, suggesting a conceptual misunderstanding of the weight loss goal. While the meal quality, variety, and restriction compliance are excellent, the caloric miscalibration is a critical flaw that undermines the plan's effectiveness for the stated goal.",
+    "weaknesses": [
+      "CRITICAL: Daily caloric total is ~2,050 calories, which does NOT meet the solution criteria requirement of 1,800-2,000 kcal (500-750 kcal deficit). This is above the target range",
+      "The caloric target stated in the header (2,200-2,400 calories) contradicts the solution criteria and is inappropriate for weight loss",
+      "No clear explanation of how the deficit was calculated or justified for this individual's stats",
+      "Missing guidance on whether the optional gluten-free roll should be included/excluded for caloric control",
+      "No mention of adjusting the plan based on individual metabolic rate or activity level verification",
+      "Lacks specific guidance on meal prep or storage for adherence"
+    ]
+  }
+]
